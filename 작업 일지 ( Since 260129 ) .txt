@@ -1,3 +1,39 @@
+====	260130	===================
+
+-----------------------
+-	parkT_bk_v1 테스트
+-----------------------
+
+	-	선 분석 후 필요 사항 문의 할 것..
+
+		-	유니티 버전 6, 2022로 테스트 진행..
+
+			-	둘다 비쥬얼적으로는 큰 문제는 없는 듯..
+
+			-	유니티 에디터에서 실행시 발생한 에러 및 관련 메시지..
+
+				- 	python_path.txt 없음: C:\python_path.txt
+
+				-	[AutoTee] OpenPort Error: The port `COM5' does not exist.
+
+				-	DB 오류 발생: Unable to connect to any of the specified MySQL hosts.
+					StackTrace:   at MySql.Data.MySqlClient.NativeDriver.Open () [0x00057] in <c869b0532588415a94273420a5901c4c>:0 
+
+				-	카메라 연결 상태 체크..
+
+
+		-	파이썬 프로젝트..
+		
+			-	비쥬얼 스튜디오 코드로 작업한 흔적 있음..
+
+				-	[ .vscode ] 폴더..
+
+
+		-	버그 발견..
+
+			-	1번 맵에서 카메라가 비정상 회전!!
+
+
 ====	260129	===================
 
 -----------------------
